@@ -6,7 +6,7 @@
                 <div class="button-list">
                     <div class="button-wrapper">
                         <div class="button">
-                            上海
+                            {{this.currentCity}}
                         </div>
                     </div>              
                 </div>
@@ -14,7 +14,7 @@
             <div class="area">
                 <div class="title border-topbottom">热门城市</div>
                 <div class="button-list">
-                    <div class="button-wrapper" v-for="item of hot" :key="item.id">
+                    <div class="button-wrapper" v-for="item of hot" :key="item.id" @click="handleCityClick(item.name)">
                         <div class="button">
                             {{item.name}}
                         </div>
@@ -23,7 +23,7 @@
             </div>
             <div class="area" v-for="(value,key) in cities" :key="key" :ref="key"> 
                 <div class="title border-topbottom">{{key}}</div>
-                <div class="item-list" v-for="item of value" :key="item.id">
+                <div class="item-list" v-for="item of value" :key="item.id" @click="handleCityClick(item.name)">
                     <div class="item border-bottom" >
                         {{item.name}}
                     </div>         
@@ -34,7 +34,8 @@
 </template>
 
 <script>
-import BetterScroll from 'better-scroll'
+import BetterScroll from 'better-scroll' 
+import {mapState,mapMutations} from 'vuex'
 export default {
     name:'CityList',
     props:{
@@ -42,8 +43,18 @@ export default {
         cities:Object,
         letter:String
     },
-    mounted () {
-        this.scroll = new BetterScroll(this.$refs.wrapper)
+    computed:{
+        // ...mapState(['city'])   也可以下面这样写
+        ...mapState({
+            currentCity:'city'
+        })
+    },
+    methods:{
+        handleCityClick (city) {
+            this.changeCity(city)
+            this.$router.push('/')
+        },
+        ...mapMutations(['changeCity'])
     },
     watch:{
         letter () {
@@ -52,7 +63,10 @@ export default {
                 this.scroll.scrollToElement(element)         //其数组的第一个元素即为该元素
             }
         }
-    }
+    },
+    mounted () {
+        this.scroll = new BetterScroll(this.$refs.wrapper)
+    },
 }
 </script>
 
