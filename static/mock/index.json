@@ -1,0 +1,107 @@
+{
+    "ret": true,
+    "data": {
+        "city": "上海",
+        "swiperList": [
+            {
+                "id": "001",
+                "imgUrl": "https://imgs.qunarzz.com/vs_ceph_vcimg/7176acd77332a433af9636eb9a2c338c.jpeg"
+            },
+            {
+                "id": "002",
+                "imgUrl": "https://imgs.qunarzz.com/vs_ceph_vcimg/569cae4ae98e9793f7341e85eed73c54.jpeg"
+            },
+            {
+                "id": "003",
+                "imgUrl": "https://imgs.qunarzz.com/vs_ceph_vcimg/f03f5ac90ae59d0d9c6332a2bfd9782e.jpeg"
+            }
+        ],
+        "iconList": [
+            {
+                "id": "001",
+                "iconUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/158387fe5376294f3776d01358d6b73b.png",
+                "des": "热门景点"
+            },
+            {
+                "id": "002",
+                "iconUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/69e8b07cb2d438c5530aebd4c8e3abd3.png",
+                "des": "一日游"
+            },
+            {
+                "id": "003",
+                "iconUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/50357a9f88fe84bcf9d20961059c8611.png",
+                "des": "上海迪士尼"
+            },
+            {
+                "id": "004",
+                "iconUrl": "https://imgs.qunarzz.com/piao/fusion/1803/b6/37560ece9c62b502.png",
+                "des": "东方明珠"
+            },
+            {
+                "id": "005",
+                "iconUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/aba25fb84648c130561afa5398d3552a.png",
+                "des": "野生动物园"
+            },
+            {
+                "id": "006",
+                "iconUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/89545f7aa8451b0979f7fcfd5536b7c1.png",
+                "des": "上海海昌"
+            },
+            {
+                "id": "007",
+                "iconUrl": "https://imgs.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+                "des": "豫园"
+            },
+            {
+                "id": "008",
+                "iconUrl": "https://imgs.qunarzz.com/piao/fusion/1803/50/26ffa31b56646402.png",
+                "des": "上海水族馆"
+            },
+            {
+                "id": "009",
+                "iconUrl": "https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20209/f9b2f683354d575710af0938cfef675e.png",
+                "des": "杜莎蜡像馆"
+            }
+        ],
+        "recommendList": [
+            {
+                "id": "001",
+                "imgUrl": "https://imgs.qunarzz.com/sight/p0/2005/a9/a9411416ff215fe2a3.water.jpg_200x200_3110fb7b.jpg",
+                "title": "上海迪士尼乐园",
+                "desc": "全球最大的迪士尼城堡"
+            },
+            {
+                "id": "002",
+                "imgUrl": "https://imgs.qunarzz.com/tuan/team2/1507/2c/83e0e0e7ae082a.jpg_200x200_6d7378b2.jpg",
+                "title": "东方明珠",
+                "desc": "259米透明悬空观光廊了解一下~"
+            },
+            {
+                "id": "003",
+                "imgUrl": "https://imgs.qunarzz.com/sight/p0/2005/9e/9e643f96c84b5c2ea3.water.jpg_200x200_2a3eef5b.jpg",
+                "title": "上海欢乐谷",
+                "desc": "敢上1200米长的木质过山车吗？~"
+            }
+        ],
+        "weekendList": [
+            {
+                "id": "001",
+                "imgUrl": "https://imgs.qunarzz.com/sight/source/1505/7d/df6ff468331c43.jpg_r_640x214_1f3783d0.jpg",
+                "title": "上海必打卡",
+                "desc": "中西合璧，现代和传统各有各的精彩"
+            },
+            {
+                "id": "002",
+                "imgUrl": "https://imgs.qunarzz.com/sight/source/1511/ea/7f43191b747bb9.jpg_r_640x214_f58e829d.jpg",
+                "title": "上海泡汤圣地",
+                "desc": "上海的朋友总会问，哪里可以泡温泉，哪里的温泉好呢？这里有最好最全的上海温泉~"
+            },
+            {
+                "id": "003",
+                "imgUrl": "https://imgs.qunarzz.com/sight/source/1509/41/0a74389a026adc.jpg_r_640x214_5ad7add7.jpg",
+                "title": "上海赏秋攻略",
+                "desc": "上海的秋天，哪里都是美美哒~"
+            }
+        ]
+    }
+}
